@@ -1,0 +1,19 @@
+{
+  "name": "fifa-ranking-formula",
+  "version": "0.1.0",
+  "description": "Utility function to calculate FIFA ranking points",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Mahmut Surekci",
+  "license": "ISC",
+  "dependencies": {
+    "decimal.js": "^10.4.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "jest": "^29.3.1"
+  }
+}
