@@ -3,6 +3,8 @@
   "version": "0.2.0",
   "description": "Utility function to calculate FIFA ranking points",
   "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
