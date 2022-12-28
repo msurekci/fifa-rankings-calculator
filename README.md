@@ -18,3 +18,16 @@ calculatePoints({
   PBeforeTeamB: 1500 
 });
 ```
+
+### Options
+```js
+
+const options = {
+  PBefore: 1300 // Points of the team before at the start of the game
+  I: IMPORTANCE; // Importance score of the game 
+  W: RESULT_SCORE; // Result for PBefore team (1 for win, 0.75 for draw, 0.5 for loss)
+  PBeforeTeamB: number; // Points of the team played against at the start of the game
+  PSO?: boolean; // Did the game finish with a penalty shootout?
+  KnockoutRound?: boolean; // Was it a knockout round game?
+}
+```

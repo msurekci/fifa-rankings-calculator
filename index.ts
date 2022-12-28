@@ -53,7 +53,7 @@ const calculatePoints = ({
 
   const firstCalc = new Decimal(resultScore).minus(We);
   const secondCalc = new Decimal(I).times(firstCalc);
-  const finalCalc = secondCalc.plus(PBefore);
+  const finalCalc = secondCalc.plus(PBefore).toFixed(2);
   return Number(finalCalc);
 };
 

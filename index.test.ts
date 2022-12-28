@@ -1,10 +1,10 @@
-import calculatePoints from ".";
+import calculatePoints from "./index";
 
 describe("calculatePoints", () => {
   it("should return the correct value", () => {
     expect(
       calculatePoints({ PBefore: 1300, I: 25, W: 1, PBeforeTeamB: 1500 })
-    ).toBe(1317.0746496736797);
+    ).toBe(1317.07);
   });
 
   it("should calculate considering penalty shootouts", () => {
@@ -16,7 +16,7 @@ describe("calculatePoints", () => {
         PBeforeTeamB: 1500,
         PSO: true,
       })
-    ).toBe(1310.8246496736797);
+    ).toBe(1310.82);
   });
 
   it("should not reduce the points if loss was during knockout stage", () => {
